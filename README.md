@@ -10,3 +10,8 @@
 6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
 7. Run `install.sh` to start the installation
 9. Restart your computer to finalize the process
+
+## Include packages and programming languages
+
+Node.js `14.20`, Java, Spring Boot, Golang, Python, C++
+Docker, AWS CLI, Terraform CLI, Visual Studio Code, DBeaver, MySQL, Postgresql
