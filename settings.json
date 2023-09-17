@@ -1,0 +1,176 @@
+{
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "aws.samcli.location": "/usr/local/bin/sam",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.preferences.quoteStyle": "single"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "yaml.schemas": {
+    "file:/Users/suphawith-j/Library/Application Support/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/cloudformation.schema.json": [
+      "services/iam/template.yml"
+    ],
+    "file:///Users/suphawith-j/Library/Application%20Support/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/cloudformation.schema.json": [
+      "services/iam/template.yml"
+    ],
+    "file:///Users/suphawith-j/Library/Application%20Support/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": [
+      "template.yml",
+      "template.yaml"
+    ]
+  },
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "json.schemas": [],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "sonarlint.rules": {
+    "javascript:S1186": {
+      "level": "off"
+    },
+    "javascript:S4138": {
+      "level": "off"
+    },
+    "javascript:S1117": {
+      "level": "off"
+    },
+    "javascript:S1121": {
+      "level": "off"
+    },
+    "javascript:S1488": {
+      "level": "off"
+    },
+    "javascript:S905": {
+      "level": "off"
+    },
+    "javascript:S6325": {
+      "level": "off"
+    },
+    "javascript:S3776": {
+      "level": "off"
+    },
+    "javascript:S3696": {
+      "level": "off"
+    },
+    "javascript:S1527": {
+      "level": "off"
+    },
+    "javascript:S1788": {
+      "level": "off"
+    },
+    "javascript:S3001": {
+      "level": "off"
+    },
+    "javascript:S878": {
+      "level": "off"
+    },
+    "javascript:S2703": {
+      "level": "off"
+    },
+    "javascript:S4144": {
+      "level": "off"
+    },
+    "javascript:S4123": {
+      "level": "off"
+    }
+  },
+  "git.autofetch": true,
+  "terminal.integrated.defaultProfile.osx": "sh",
+  "terminal.integrated.automationProfile.osx": {},
+  "sonarlint.pathToNodeExecutable": "/Users/suphawith-j/.nvm/versions/node/v14.18.3/bin/node",
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {},
+  "[cpp]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "aws.profile": "profile:default",
+  "testing.autoRun.mode": "rerun",
+  "editor.fontWeight": "normal",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "jest.autoRun": {
+    "disable": true
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "editor.accessibilitySupport": "off",
+  "go.coverOnSave": true,
+  "go.coverOnSingleTest": true,
+  "go.coverageDecorator": {
+    // "type": "highlight",
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredBorderColor": "rgba(64,128,128,0.5)",
+    "uncoveredBorderColor": "rgba(128,64,64,0.25)",
+    // "coveredGutterStyle": "blockblue",
+    "coveredGutterStyle": "blockgreen",
+    // "uncoveredGutterStyle": "slashyellow"
+    "uncoveredGutterStyle": "blockred"
+  },
+  "gopls": {
+    "build.buildFlags": ["-tags=integration"],
+  }
+}
