@@ -164,10 +164,6 @@ brew "openssl@3"
 brew "p11-kit"
 brew "pcre"
 brew "pcre2"
-brew "php"
-brew "php-cs-fixer"
-brew "php@7.2"
-brew "php@8.1"
 brew "pinentry"
 brew "pixman"
 brew "pkg-config"
@@ -179,10 +175,7 @@ brew "pycparser"
 brew "pygments"
 brew "python-tabulate"
 brew "python-typing-extensions"
-brew "python@3.10"
 brew "python@3.11"
-brew "python@3.8"
-brew "python@3.9"
 brew "pyyaml"
 brew "readline"
 brew "reattach-to-user-namespace"
@@ -263,6 +256,11 @@ cask "font-fira-code"
 cask "font-hasklig"
 
 
+# GCP
+cask "google-cloud-sdk"
+
+
+
 # Apps and Extensions
 cask "alfred"
 cask "aws-vault"
@@ -280,3 +278,89 @@ cask "redis-stack-server"
 cask "tableplus"
 cask "tunnelblick"
 cask "visual-studio-code"
+
+# vscode extensions
+code --install-extension abusaidm.html-snippets
+code --install-extension adpyke.codesnap
+code --install-extension adpyke.vscode-sql-formatter
+code --install-extension alexkrechik.cucumberautocomplete
+code --install-extension amazonwebservices.aws-toolkit-vscode
+code --install-extension apollographql.vscode-apollo
+code --install-extension bierner.markdown-mermaid
+code --install-extension cschlosser.doxdocgen
+code --install-extension cweijan.vscode-mysql-client2
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension eamodio.gitlens
+code --install-extension ecmel.vscode-html-css
+code --install-extension EditorConfig.EditorConfig
+code --install-extension Equinusocio.vsc-community-material-theme
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.vscode-mysql
+code --install-extension genieai.chatgpt-vscode
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension golang.go
+code --install-extension GraphQL.vscode-graphql
+code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension hashicorp.terraform
+code --install-extension HookyQR.beautify
+code --install-extension jcbuisson.vue
+code --install-extension jebbs.plantuml
+code --install-extension jeff-hykin.better-cpp-syntax
+code --install-extension josetr.cmake-language-support-vscode
+code --install-extension maracko.json-to-go
+code --install-extension mikestead.dotenv
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-dotnettools.vscode-dotnet-runtime
+code --install-extension ms-python.isort
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.cmake-tools
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension ms-vscode.cpptools-themes
+code --install-extension ms-vscode.remote-explorer
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension mtxr.sqltools
+code --install-extension Orta.vscode-jest
+code --install-extension PKief.material-icon-theme
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension Prisma.prisma
+code --install-extension Quernest.prisma
+code --install-extension redhat.java
+code --install-extension redhat.vscode-yaml
+code --install-extension ritwickdey.LiveServer
+code --install-extension shrey150.javafx-support
+code --install-extension SonarSource.sonarlint-vscode
+code --install-extension stylelint.vscode-stylelint
+code --install-extension twxs.cmake
+code --install-extension usernamehw.errorlens
+code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vmware.vscode-boot-dev-pack
+code --install-extension vmware.vscode-spring-boot
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-java-test
+code --install-extension vscjava.vscode-maven
+code --install-extension vscjava.vscode-spring-boot-dashboard
+code --install-extension vscjava.vscode-spring-initializr
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension Zignd.html-css-class-completion
